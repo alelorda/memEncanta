@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>memEncanta</title>
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" />
+    <link rel="stylesheet" type="text/css" href="style\style.css" />
+</head>
+
+<body>
+    <div class="meme-generator">
+        <label for="imageFileInput" class="custom-file-upload">
+            Agregar Imagen
+        </label><br />
+        <input id="imageFileInput" type="file" />
+        <input placeholder="Texto Superior" type="text" id="topTextInput">
+        <input placeholder="Texto Inferior" type="text" id="bottomTextInput">
+        <canvas id="meme"></canvas>
+    </div>
+    <!-- <div class="meme-generator">
+        <input download="proposed_file_name" type='submit' value="Descargar" class="download">
+    </div> -->
+    <button type="submit" onclick="window.open('meme')">Download!</button>
+    <script src='script\main.js'></script>
+</body>
+
+</html>

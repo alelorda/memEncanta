@@ -1,0 +1,49 @@
+body {
+    background-color: #333333;
+}
+
+.meme-generator {
+    margin: 20px auto;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.meme-generator label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.meme-generator input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#meme {
+    width: 100%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    color: whitesmoke;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #01579b;
+}
+
+.download{
+        color: whitesmoke;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        text-align: center;
+        background-color: #4BB543;
+        font-weight: bold;
+}
